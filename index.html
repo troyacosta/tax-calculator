@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tax Calculator</title>
+	<link rel="stylesheet" type="text/css" href="styles/main.sass.css">
+</head>
+<body>
+	<form>
+		<label>Amount</label>
+		<input type="number" step=".01" id="inputAmount">
+		<label>Do you live in Wisconsin?</label>
+		<label>Yes</label>
+		<input type="radio" name="stateChoice" id="yes">
+		<label>No</label>
+		<input type="radio" name="stateChoice" id="no" checked="checked">
+		<button>Calculate Tax!</button>
+	</form>
+	<div id="output"></div>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
